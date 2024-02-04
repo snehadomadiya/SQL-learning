@@ -5,3 +5,4 @@ create table student_info(
     mobile int NOT NULL,
     primary key(Id)
 );
+
