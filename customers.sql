@@ -1,6 +1,7 @@
 create database custmers;
 
 show databases;
+use custmers;
 
 create table custmers(
 	custmersId int NOT NULL AUTO_INCREMENT,
@@ -9,8 +10,6 @@ create table custmers(
     mobile int NOT NULL,
     primary key(custmersId)
 );
-
-
 
 
 
